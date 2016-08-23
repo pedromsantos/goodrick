@@ -3,6 +3,7 @@ Draw guitar chords in Javascript
 
 ## Example:
 
+```html
 <html>
 <head>
     <script src="goodrick.js"/>
@@ -22,3 +23,4 @@ Draw guitar chords in Javascript
     <canvas id="canvas" width="200" height="200"></canvas>
 </body>
 </html>
+```
