@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Example Goodrick</title>
+    <script src="goodrick.js"/>
+    <script>
+      var chord = [-1, 3, 5, 4, 5, -1];
+
+      var canvas = document.getElementById('canvas');
+      var ctx = canvas.getContext('2d');
+
+      ctx.font = "18px Arial";
+      ctx.beginPath();
+      drawChord(ctx, chord);
+      ctx.stroke();
+    </script>
+</head>
+<body>
+    <canvas id="canvas" width="200" height="200"></canvas>
+</body>
+</html>
