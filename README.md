@@ -1,2 +1,2 @@
 # goodrick
-Draw guitar chord in Javascript
+Draw guitar chords in Javascript
