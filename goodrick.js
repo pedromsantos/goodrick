@@ -25,7 +25,7 @@ function drawFrets(ctx, minFret, maxFret) {
     ctx.lineTo(fretWidth * strings, offsetY + fretHeight);
     offsetY = offsetY + fretWidth;
   }
-}
+};
 
 function drawFinger(ctx, fret, x, y) {
   var fingerText;
@@ -43,7 +43,7 @@ function drawFinger(ctx, fret, x, y) {
 
   ctx.fillStyle = fingerColor;
   ctx.fillText(fingerText, x, y);
-}
+};
 
 function drawStrings(ctx, chord, minFret, maxFret) {
   var offsetX = 0;
@@ -66,7 +66,7 @@ function drawStrings(ctx, chord, minFret, maxFret) {
 
     offsetX = offsetX + fretWidth;
   }
-}
+};
 
 function drawChord(ctx, chord) {
   var maxFret = Math.max.apply(Math, chord);
@@ -74,4 +74,4 @@ function drawChord(ctx, chord) {
 
   drawFrets(ctx, minFret, maxFret);
   drawStrings(ctx, chord, minFret, maxFret);
-}
+};
