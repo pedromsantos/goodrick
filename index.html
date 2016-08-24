@@ -7,14 +7,10 @@
     <script>
          window.onload = function(){
             var chord = [-1, 3, 5, 4, 5, -1];
-
             var canvas = document.getElementById('canvas');
             var ctx = canvas.getContext('2d');
-
             ctx.font = "18px Arial";
-            ctx.beginPath();
             drawChord(ctx, chord);
-            ctx.stroke();
         }
     </script>
 </head>

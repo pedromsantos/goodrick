@@ -14,6 +14,8 @@ function drawChord(ctx, chord) {
     var maxFret = Math.max.apply(Math, chord);
     var minFret = Math.max(0, Math.min.apply(Math, chord));
   
+    ctx.beginPath();
+
     function drawFrets() {
         var offsetY = 0;
         ctx.strokeStyle = lineColor;
@@ -70,4 +72,5 @@ function drawChord(ctx, chord) {
   
     drawFrets();
     drawStrings();
+    ctx.stroke();
 }
