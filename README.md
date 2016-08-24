@@ -15,9 +15,7 @@ Dedicated to Jazz guitar great [Mick Goodrick](https://en.wikipedia.org/wiki/Mic
             var canvas = document.getElementById('canvas');
             var ctx = canvas.getContext('2d');
             ctx.font = "18px Arial";
-            ctx.beginPath();
             drawChord(ctx, chord);
-            ctx.stroke();
         }
     </script>
 </head>
