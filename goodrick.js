@@ -55,7 +55,6 @@ function drawChord(ctx, chord) {
             ctx.fillText(fingerText, x, y);
         }
 
-        var offsetX = 0;
         var stringHeight = (maxFret - minFret + 1) * fretHeight;
 
         for (var guitarString = 0; guitarString < chord.length; guitarString++) {
