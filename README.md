@@ -1,5 +1,6 @@
 # Goodrick
-Draw guitar chords in Javascript. (Based on https://codepen.io/Bijingus/pen/pbyEBq)
+Draw guitar chords in Javascript (Based on https://codepen.io/Bijingus/pen/pbyEBq).
+
 Dedicated to Jazz guitar great [Mick Goodrick](https://en.wikipedia.org/wiki/Mick_Goodrick)
 
 ## Example:
